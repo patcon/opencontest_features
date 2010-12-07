@@ -22,7 +22,6 @@ function feature_opencontest_strongarm() {
     'behavior' => 'df',
     'blocks' => array(
       'admin-create' => -1,
-      'admin-theme' => 1,
       'admin-account' => -1,
       'admin-menu' => 1,
       'masquerade-0' => 2,
