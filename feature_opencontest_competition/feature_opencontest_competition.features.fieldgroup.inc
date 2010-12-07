@@ -70,7 +70,6 @@ function feature_opencontest_competition_fieldgroup_default_groups() {
       ),
       'display' => array(
         'description' => '',
-        'label' => 'above',
         'teaser' => array(
           'format' => 'fieldset',
           'exclude' => 0,
@@ -83,25 +82,18 @@ function feature_opencontest_competition_fieldgroup_default_groups() {
           'format' => 'fieldset',
           'exclude' => 0,
         ),
-        '2' => array(
-          'format' => 'fieldset',
-          'exclude' => 0,
-        ),
-        '3' => array(
-          'format' => 'fieldset',
-          'exclude' => 0,
-        ),
         'token' => array(
           'format' => 'fieldset',
           'exclude' => 0,
         ),
+        'label' => 'above',
       ),
     ),
     'weight' => '-4',
     'fields' => array(
       '0' => 'field_comp_date_exam',
-      '1' => 'field_comp_date_deadline_early',
-      '2' => 'field_comp_date_deadline_std',
+      '1' => 'field_comp_date_deadline_std',
+      '2' => 'field_comp_date_deadline_early',
     ),
   );
 
